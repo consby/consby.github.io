@@ -1,6 +1,6 @@
 var myimage = document.querySelector('img');
 
-myimage.onmouseover = function(){
+myimage.onmousedown = function(){
     var mySrc = myimage.getAttribute('src');
     if(mySrc === 'images/bamberg.jpg') {
       myimage.setAttribute ('src','images/rathaus.jpg');
